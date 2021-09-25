@@ -1,0 +1,14 @@
+{
+    "cucumberautocomplete.steps": [
+        "step-definitions/*.js",
+        "step-definitions/**/*.js"
+    ],
+    "cucumberautocomplete.syncfeatures": true,
+    "cucumberautocomplete.strictGherkinCompletion": true,
+    "cucumberautocomplete.onTypeFormat": true,
+    "editor.quickSuggestions": {
+        "comments": false,
+        "strings": true,
+        "other": true
+    },
+}

@@ -1,0 +1,76 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "search-skill-academy;user-dapat-melihat-data-hasil-search-dengan-keyword-:-tryout",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "User dapat melihat data hasil search dengan keyword : Tryout",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "User open browser skill academy",
+            "match": {
+              "location": "step-definitions\\search.js:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "User search keyword 'Tryout' on search field",
+            "match": {
+              "location": "step-definitions\\search.js:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4971000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "User verify page hasil 'Tryout' on page",
+            "match": {
+              "location": "step-definitions\\search.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1553000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@s3",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "search-skill-academy",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Search Skill Academy",
+    "tags": [],
+    "uri": "features\\search.feature"
+  }
+]

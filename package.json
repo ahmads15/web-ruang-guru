@@ -1,0 +1,23 @@
+{
+    "name": "report-automation",
+    "version": "1.0.0",
+    "scripts": {
+        "e2e-test": "mkdirp report && cucumber-js --require-module babel-core/register --require cucumber.conf.js --require step-definitions --format @cucumber/pretty-formatter --format json:report/cucumber_report.json"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "@cucumber/cucumber": "^7.3.1",
+        "@cucumber/pretty-formatter": "^1.0.0-alpha.1",
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-preset-env": "^1.7.0",
+        "chai": "^4.2.0",
+        "chromedriver": "^92.0.1",
+        "cucumber-html-reporter": "^5.3.0",
+        "cucumber-pretty": "^6.0.0",
+        "geckodriver": "^2.0.2",
+        "mkdirp": "^1.0.4",
+        "nightwatch": "^1.7.8",
+        "nightwatch-api": "^3.0.2"
+    }
+}
